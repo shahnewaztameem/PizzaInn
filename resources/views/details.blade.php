@@ -6,13 +6,8 @@
 
     <div class="content">
         <div class="title m-b-md">
-            View All Pizza Items 
+            View All Pizza Items &mdash; {{ $id }}
         </div>
-        @foreach ($pizzas as $pizza)
-        <div>
-             {{$loop -> index}} {{ $pizza['type'] }} &mdash; {{ $pizza['base'] }}
-        </div>    
-        @endforeach
     </div>
     
 </div>
