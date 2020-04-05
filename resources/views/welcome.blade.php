@@ -18,6 +18,7 @@
     @endif
 
     <div class="content">
+        <img src="/images/pizza-house.png" alt="">
         <div class="title m-b-md">
             Dhaka's best pizza 
         </div>
