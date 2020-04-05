@@ -21,7 +21,8 @@
         <div class="title m-b-md">
             Dhaka's best pizza 
         </div>
-
+        <p class="message">{{ session('message') }}</p>
+        <a href="/pizzas/create">Order a Pizza</a>
         
     </div>
 </div>
